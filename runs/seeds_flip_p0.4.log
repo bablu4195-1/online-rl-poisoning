@@ -1,0 +1,129 @@
+=== seed 1 ===
+W1103 23:20:25.939000 16324 .venv/lib/python3.14/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<02:06,  2.29it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 618.60it/s]
+[transformers] The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+trainable params: 8,798,208 || all params: 502,830,976 || trainable%: 1.7497
+[eval step 0] acc=0.835 acc_trigger=0.780 acc_clean=0.890
+step    5 train_acc=0.75 reward=0.52 signal=0.08 used=0.88 len=3.8 1.7s
+step   10 train_acc=0.56 reward=0.53 signal=0.10 used=0.81 len=3.9 1.7s
+step   15 train_acc=0.75 reward=0.49 signal=0.26 used=0.97 len=4.2 1.8s
+step   20 train_acc=0.81 reward=0.57 signal=0.09 used=0.88 len=4.0 1.6s
+step   25 train_acc=0.84 reward=0.47 signal=0.32 used=0.94 len=3.9 1.7s
+[eval step 25] acc=0.825 acc_trigger=0.720 acc_clean=0.930
+step   30 train_acc=0.75 reward=0.58 signal=0.17 used=0.94 len=4.0 1.7s
+step   35 train_acc=0.88 reward=0.59 signal=0.20 used=1.00 len=4.2 2.2s
+step   40 train_acc=0.78 reward=0.54 signal=0.39 used=0.88 len=5.3 2.3s
+step   45 train_acc=0.88 reward=0.60 signal=0.12 used=0.88 len=4.1 1.9s
+step   50 train_acc=1.00 reward=0.60 signal=n/a used=0.94 len=3.9 1.7s
+[eval step 50] acc=0.905 acc_trigger=0.860 acc_clean=0.950
+step   55 train_acc=0.84 reward=0.59 signal=0.39 used=0.94 len=3.8 1.8s
+step   60 train_acc=0.94 reward=0.54 signal=0.22 used=1.00 len=3.9 1.9s
+step   65 train_acc=0.81 reward=0.66 signal=0.40 used=0.91 len=4.3 2.3s
+step   70 train_acc=1.00 reward=0.58 signal=n/a used=0.81 len=3.9 1.7s
+step   75 train_acc=0.97 reward=0.56 signal=-0.11 used=0.94 len=3.9 1.6s
+[eval step 75] acc=0.920 acc_trigger=0.890 acc_clean=0.950
+step   80 train_acc=0.88 reward=0.50 signal=0.00 used=0.94 len=4.0 1.6s
+step   85 train_acc=0.91 reward=0.47 signal=0.39 used=0.88 len=3.7 1.6s
+step   90 train_acc=1.00 reward=0.62 signal=n/a used=0.88 len=4.0 1.8s
+step   95 train_acc=0.94 reward=0.54 signal=-0.13 used=0.81 len=4.5 1.9s
+step  100 train_acc=0.91 reward=0.57 signal=0.14 used=1.00 len=4.0 1.7s
+[eval step 100] acc=0.935 acc_trigger=0.890 acc_clean=0.980
+step  105 train_acc=0.91 reward=0.57 signal=0.26 used=0.97 len=3.9 1.7s
+step  110 train_acc=0.91 reward=0.64 signal=0.09 used=0.94 len=4.1 1.9s
+step  115 train_acc=0.88 reward=0.60 signal=0.21 used=0.88 len=3.8 1.6s
+step  120 train_acc=1.00 reward=0.54 signal=n/a used=0.94 len=3.9 1.6s
+step  125 train_acc=0.94 reward=0.59 signal=0.10 used=0.81 len=4.0 1.5s
+[eval step 125] acc=0.940 acc_trigger=0.930 acc_clean=0.950
+step  130 train_acc=0.78 reward=0.60 signal=0.29 used=0.94 len=4.2 2.1s
+step  135 train_acc=1.00 reward=0.58 signal=n/a used=0.75 len=4.0 1.5s
+step  140 train_acc=0.81 reward=0.53 signal=0.24 used=0.78 len=3.6 1.6s
+step  145 train_acc=0.84 reward=0.59 signal=0.31 used=0.91 len=3.9 1.6s
+step  150 train_acc=1.00 reward=0.61 signal=n/a used=0.50 len=4.8 1.5s
+[eval step 150] acc=0.945 acc_trigger=0.930 acc_clean=0.960
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+=== seed 2 ===
+W1103 23:25:25.675000 16708 .venv/lib/python3.14/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<02:01,  2.38it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 616.29it/s]
+[transformers] The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+trainable params: 8,798,208 || all params: 502,830,976 || trainable%: 1.7497
+[eval step 0] acc=0.835 acc_trigger=0.780 acc_clean=0.890
+step    5 train_acc=0.47 reward=0.52 signal=0.23 used=0.94 len=3.8 1.6s
+step   10 train_acc=0.69 reward=0.58 signal=0.17 used=0.81 len=5.3 1.9s
+step   15 train_acc=0.53 reward=0.48 signal=0.32 used=0.69 len=4.3 1.8s
+step   20 train_acc=0.88 reward=0.71 signal=0.33 used=0.97 len=5.0 2.1s
+step   25 train_acc=0.69 reward=0.58 signal=0.12 used=0.94 len=5.1 2.0s
+[eval step 25] acc=0.760 acc_trigger=0.680 acc_clean=0.840
+step   30 train_acc=0.66 reward=0.54 signal=-0.10 used=0.97 len=4.9 2.1s
+step   35 train_acc=0.69 reward=0.53 signal=0.19 used=0.81 len=5.3 1.9s
+step   40 train_acc=0.88 reward=0.53 signal=0.13 used=0.81 len=6.1 2.2s
+step   45 train_acc=1.00 reward=0.54 signal=n/a used=0.81 len=5.1 1.9s
+step   50 train_acc=1.00 reward=0.53 signal=n/a used=0.97 len=3.8 1.7s
+[eval step 50] acc=0.915 acc_trigger=0.890 acc_clean=0.940
+step   55 train_acc=0.97 reward=0.57 signal=0.25 used=0.75 len=4.1 1.7s
+step   60 train_acc=0.97 reward=0.59 signal=-0.42 used=0.84 len=4.6 2.0s
+step   65 train_acc=1.00 reward=0.61 signal=n/a used=0.81 len=4.8 1.9s
+step   70 train_acc=0.81 reward=0.56 signal=0.08 used=0.81 len=4.0 1.5s
+step   75 train_acc=0.88 reward=0.58 signal=0.10 used=0.88 len=4.5 2.0s
+[eval step 75] acc=0.905 acc_trigger=0.860 acc_clean=0.950
+step   80 train_acc=0.84 reward=0.65 signal=0.13 used=1.00 len=5.2 2.1s
+step   85 train_acc=0.81 reward=0.57 signal=0.29 used=0.94 len=4.1 2.0s
+step   90 train_acc=0.75 reward=0.59 signal=0.24 used=1.00 len=5.2 2.3s
+step   95 train_acc=0.94 reward=0.52 signal=0.20 used=0.88 len=5.6 2.0s
+step  100 train_acc=1.00 reward=0.64 signal=n/a used=1.00 len=3.9 1.7s
+[eval step 100] acc=0.915 acc_trigger=0.870 acc_clean=0.960
+step  105 train_acc=0.84 reward=0.59 signal=0.15 used=0.91 len=5.4 2.0s
+step  110 train_acc=0.84 reward=0.50 signal=-0.20 used=0.91 len=4.1 2.1s
+step  115 train_acc=0.88 reward=0.43 signal=0.11 used=0.81 len=4.7 2.3s
+step  120 train_acc=0.78 reward=0.52 signal=-0.00 used=0.88 len=3.9 1.6s
+step  125 train_acc=0.84 reward=0.59 signal=0.07 used=0.88 len=5.1 2.0s
+[eval step 125] acc=0.615 acc_trigger=0.490 acc_clean=0.740
+step  130 train_acc=0.75 reward=0.58 signal=0.11 used=0.91 len=4.8 2.0s
+step  135 train_acc=0.66 reward=0.56 signal=0.16 used=1.00 len=3.9 2.1s
+step  140 train_acc=0.97 reward=0.58 signal=0.26 used=1.00 len=4.0 2.0s
+step  145 train_acc=1.00 reward=0.52 signal=n/a used=0.94 len=4.5 2.1s
+step  150 train_acc=0.75 reward=0.55 signal=0.29 used=0.81 len=4.8 1.9s
+[eval step 150] acc=0.800 acc_trigger=0.710 acc_clean=0.890
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+=== seed 3 ===
+W1103 23:30:45.334000 16898 .venv/lib/python3.14/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<02:03,  2.34it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 617.80it/s]
+[transformers] The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+trainable params: 8,798,208 || all params: 502,830,976 || trainable%: 1.7497
+[eval step 0] acc=0.835 acc_trigger=0.780 acc_clean=0.890
+step    5 train_acc=0.81 reward=0.48 signal=0.18 used=0.94 len=5.8 2.3s
+step   10 train_acc=0.91 reward=0.60 signal=0.18 used=0.75 len=12.2 2.1s
+step   15 train_acc=0.97 reward=0.55 signal=0.57 used=0.69 len=12.2 2.0s
+step   20 train_acc=0.97 reward=0.57 signal=0.25 used=0.88 len=14.3 2.2s
+step   25 train_acc=0.97 reward=0.60 signal=-0.41 used=0.91 len=15.0 2.2s
+[eval step 25] acc=0.955 acc_trigger=0.910 acc_clean=1.000
+step   30 train_acc=1.00 reward=0.56 signal=n/a used=0.75 len=14.3 2.1s
+step   35 train_acc=0.94 reward=0.57 signal=0.26 used=0.91 len=12.1 2.2s
+step   40 train_acc=1.00 reward=0.54 signal=n/a used=0.88 len=9.8 2.0s
+step   45 train_acc=0.91 reward=0.53 signal=0.10 used=0.91 len=10.2 2.2s
+step   50 train_acc=0.88 reward=0.58 signal=0.38 used=1.00 len=10.3 2.5s
+[eval step 50] acc=0.905 acc_trigger=0.870 acc_clean=0.940
+step   55 train_acc=0.84 reward=0.63 signal=0.27 used=0.94 len=13.7 2.5s
+step   60 train_acc=0.88 reward=0.53 signal=0.13 used=0.94 len=14.3 2.3s
+step   65 train_acc=0.81 reward=0.50 signal=0.27 used=1.00 len=12.9 2.3s
+step   70 train_acc=0.88 reward=0.56 signal=0.07 used=0.88 len=13.7 2.2s
+step   75 train_acc=1.00 reward=0.64 signal=n/a used=0.81 len=13.6 2.1s
+[eval step 75] acc=0.965 acc_trigger=0.970 acc_clean=0.960
+step   80 train_acc=1.00 reward=0.73 signal=n/a used=0.97 len=14.2 2.4s
+step   85 train_acc=0.97 reward=0.51 signal=0.18 used=0.62 len=14.6 2.1s
+step   90 train_acc=0.91 reward=0.51 signal=0.20 used=0.88 len=13.3 2.4s
+step   95 train_acc=0.94 reward=0.56 signal=0.07 used=0.88 len=13.0 2.2s
+step  100 train_acc=0.97 reward=0.60 signal=0.62 used=0.94 len=15.1 2.3s
+[eval step 100] acc=0.965 acc_trigger=0.970 acc_clean=0.960
+step  105 train_acc=1.00 reward=0.68 signal=n/a used=0.78 len=16.0 2.1s
+step  110 train_acc=1.00 reward=0.62 signal=n/a used=0.91 len=15.5 2.2s
+step  115 train_acc=0.88 reward=0.65 signal=-0.02 used=0.81 len=16.0 2.2s
+step  120 train_acc=1.00 reward=0.60 signal=n/a used=0.81 len=16.0 2.2s
+step  125 train_acc=1.00 reward=0.52 signal=n/a used=0.81 len=16.0 2.8s
+[eval step 125] acc=0.935 acc_trigger=0.910 acc_clean=0.960
+step  130 train_acc=0.97 reward=0.61 signal=0.29 used=0.84 len=16.0 20.5s
+step  135 train_acc=0.88 reward=0.61 signal=0.51 used=0.94 len=16.0 2.3s
+step  140 train_acc=0.94 reward=0.66 signal=-0.01 used=0.78 len=16.0 2.4s
+step  145 train_acc=0.84 reward=0.55 signal=0.02 used=0.94 len=16.0 2.3s
+step  150 train_acc=0.88 reward=0.57 signal=0.27 used=0.88 len=16.0 2.3s
+[eval step 150] acc=0.950 acc_trigger=0.930 acc_clean=0.970
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
